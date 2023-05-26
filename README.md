@@ -1,5 +1,7 @@
 # Домашнее задание к лекции «Контейнеры»
 
+[![Build status](https://ci.appveyor.com/api/projects/status/fajps9rxc0f9u0yw?svg=true)](https://ci.appveyor.com/project/RomanMenshikov92/containers-hw-8)
+
 **Важно**: каждая задача выполняется в виде отдельного проекта с собственным GitHub репозиторием.
 
 **Важно**: код должен проходить ESLint без ошибок.
