@@ -6,7 +6,12 @@ export default class Team {
 
   // добавить персонажа в Set
   add(character) {
-    this.members.add(character);
+    if (!this.members.has(character)) {
+      this.members.add(character);
+    } else {
+      // eslint-disable-next-line no-console
+      console.log('Персонаж есть!');
+    }
   }
 
   // добавить сразу несколько персонажей в Set
